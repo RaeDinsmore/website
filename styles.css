@@ -1,0 +1,62 @@
+/*
+
+COMPLETE 
+margin property
+setting a single side of one of the above properties
+setting the width and height of a content area in percent
+padding property
+use of an identifier (ID) selector 
+border properties
+use of a class selector
+
+*/
+
+* {
+    /* border: 1px dashed red; */
+    margin: 0;
+}
+
+body {
+    width: 100vw; /* vw stands for view width */
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: aliceblue;
+    height: 12%;
+    padding: 0 10px;
+}
+
+header h1 {
+    margin: 10px 0 20px 0; /* top right bottom left */
+}
+
+div {
+    padding: 10px;
+}
+
+main {
+    width: 50%;
+    margin: 20px auto; /* auto will center in the right left (if it's the second value)*/
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Only applies id's once */
+
+#gradient-border {
+    border: 6px solid Aliceblue;
+    border-radius: 25px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
